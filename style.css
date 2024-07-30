@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(108, 133, 148);
+}
+
+.window {
+    margin: 100px auto;
+    padding: 40px 40px;
+    width: 400px;
+    height: 620px;
+    background: linear-gradient(rgb(180, 223, 236),rgb(108, 133, 148)) 0 0 no-repeat;
+    box-shadow: 20px 5px 5px rgb(108, 133, 148);
+    border-radius: 25px;
+
+    background-size: 100% 100%;
+    transition: background-size 0.2s linear;
+
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(108, 133, 148);
+}
+
+.window:hover a {
+    background-size: 500px 720px;
+}
+
+.block1 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    /*color: rgb(180, 223, 236);*/
+    width: 300px;
+    height: 50px;
+    
+    /*background-color: rgb(180, 223, 236);*/
+    border-radius: 25px ;
+
+    box-shadow: 20px 5px 5px rgb(108, 133, 148);
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(108, 133, 148);
+    
+}
+
+.block2 {
+    border-radius: 25px ;
+    margin-top: 70px;
+    /*box-shadow: 20px 5px 5px rgb(108, 133, 148);*/
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(108, 133, 148);
+}
+.block3 {
+    /*background-color: rgb(180, 223, 236);;*/
+    border-radius: 25px ;
+    margin-top: 70px;
+    margin-left: 140px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 20px 5px 5px rgb(108, 133, 148);
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(108, 133, 148);
+}
+
+.text {
+    margin: 5px 5px ;
+    font-family: "Roboto" , sans-serif;
+    font-size: 25px;
+    background-color: rgb(180, 223, 236);
+    border-radius: 25px ;
+
+    box-shadow: 15px 5px 5px rgb(108, 133, 148);
+}
+
+.text2 {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: "Roboto" , sans-serif;
+    font-size: 50px;
+    
+}
